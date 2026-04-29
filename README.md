@@ -103,7 +103,7 @@ vibe-codebase-dashboard/
 │   └── dashboard-template.html
 └── reports/
     └── .gitkeep
-
+```
 ---
 
 ## 권장운영방식
