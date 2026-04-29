@@ -103,3 +103,27 @@ vibe-codebase-dashboard/
 │   └── dashboard-template.html
 └── reports/
     └── .gitkeep
+
+---
+
+## 권장운영방식
+
+```text
+[코드베이스 탐색]
+        ↓
+[Context / Skill / Agent / MCP / Test / CI 파일 탐지]
+        ↓
+[VibeOps 4대 기준 평가]
+ Confidence / Explainability / Blast Radius / Evidence
+        ↓
+[Critical Validation 평가]
+ Edge Case / Failure / Security / Rollback
+        ↓
+[Human Ownership 평가]
+ Owner / Reviewer / Approver / Release Owner
+        ↓
+[100점 기준 점수화]
+        ↓
+[1분 대시보드 생성]
+        ↓
+[Top 5 Gap / Red Flag / Quick Win 도출]
