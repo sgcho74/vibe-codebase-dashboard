@@ -1,0 +1,20 @@
+name: smoke-test
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  smoke-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Run scanner
+        run: python scripts/scan_repo.py
+      - name: Score readiness
+        run: python scripts/score_vibe_readiness.py
+      - name: Render dashboard
+        run: python scripts/render_dashboard.py
