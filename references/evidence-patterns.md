@@ -91,3 +91,15 @@
 - dependency scan config
 - secret scan config
 - SAST config
+
+
+## Bundled Sub-Skills
+
+- .claude/skills/code-review/SKILL.md
+- .claude/skills/critical-validation/SKILL.md
+- .claude/skills/blast-radius-analysis/SKILL.md
+- .claude/skills/test-generation/SKILL.md
+- .claude/skills/security-review/SKILL.md
+- .claude/skills/architecture-decision/SKILL.md
+- .claude/skills/vibeops-readiness/SKILL.md
+- .claude/skills/release-readiness/SKILL.md

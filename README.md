@@ -70,3 +70,19 @@ Output the overall score, grade, one-minute summary, VibeOps 4-factor table, top
 ## License
 
 MIT
+
+
+## Bundled Sub-Skills
+
+This repository now includes executable sub-skills under `.claude/skills/`:
+
+| Sub-skill | Purpose |
+|---|---|
+| `code-review` | Review AI-generated code for correctness, maintainability, and architecture fit |
+| `critical-validation` | Validate edge cases, failure scenarios, security checks, and data safety |
+| `blast-radius-analysis` | Analyze impact scope and rollback risk |
+| `test-generation` | Generate happy-path, edge, negative, and regression tests |
+| `security-review` | Review authentication, authorization, secrets, input validation, and dependency risk |
+| `architecture-decision` | Capture ADR-style design decisions and trade-offs |
+| `vibeops-readiness` | Check Confidence, Explainability, Blast Radius, and Evidence of Review |
+| `release-readiness` | Check deployment, rollback, monitoring, and approval evidence |

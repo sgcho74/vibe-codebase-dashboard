@@ -309,3 +309,19 @@ When gaps are found, recommend concrete files to create, such as:
 - docs/runbook.md
 - docs/rollback.md
 - docs/adr/0001-architecture-decision-template.md
+
+
+## Bundled Sub-Skills
+
+This skill package includes reusable sub-skills under `.claude/skills/`:
+
+- `code-review`
+- `critical-validation`
+- `blast-radius-analysis`
+- `test-generation`
+- `security-review`
+- `architecture-decision`
+- `vibeops-readiness`
+- `release-readiness`
+
+Use these sub-skills when the dashboard identifies related gaps.
